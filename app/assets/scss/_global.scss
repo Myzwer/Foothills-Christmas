@@ -1,0 +1,88 @@
+html, body {
+  background-color: black;
+  height: 100%;
+}
+
+html {
+  font-size: 150%;
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+  font-family: 'Gotham',Gotham,normal;
+}
+
+.center {
+  text-align: center;
+}
+
+.fullWidth {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: initial;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+.padding-push {
+  padding: 15px 0px;
+}
+
+.upper-padding {
+  padding-top: 45px;
+}
+
+
+$light-blue: #37c0d8;
+
+.button {
+  display:inline-block;
+  position: relative;
+  background: transparent;
+  border: 2px solid $light-blue;
+  color: $light-blue;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: .5em;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  z-index: 1;
+
+  &:hover {
+    color: #fff;
+  }
+
+  &:hover:before {
+    right: -1px;
+  }
+}
+
+.button::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: $light-blue;
+  transition: right .3s ease;
+  z-index: -1;
+  border-radius: .5em;
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  right: 105%;
+  -webkit-backface-visibility: hidden;
+}
+
+

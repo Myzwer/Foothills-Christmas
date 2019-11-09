@@ -1,19 +1,4 @@
-//Variables
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #F8F8F8;
-$bg-main: #808080;
+@import 'variables';
+@import 'global';
+@import 'frontpage';
 
-//this is just random stuff to make sure the site is working
-
-
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
-  background-color: $bg-main;
-}
-
-h1 {
-	font-size: 3em;
-	font-weight: 800;
-	transition: all .2s ease-in-out;
-}
