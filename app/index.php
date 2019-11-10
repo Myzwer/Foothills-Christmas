@@ -16,12 +16,12 @@
  */
 
 get_header(); ?>
-    <video src="http://foothills-christmas.local/wp-content/uploads/2019/11/christmas-3.mp4" autoplay loop playsinline muted></video>
+    <video src="https://foothillschristmas.com/wp-content/uploads/2019/11/christmas-3.mp4" autoplay loop playsinline muted></video>
     <header class="viewport-header">
         <div class="grid-container">
             <div class="grid-x grid-margin-x">
                 <div class="cell small-12 center">
-                    <img src="http://foothills-christmas.local/wp-content/uploads/2019/11/logo-1.png" alt="">
+                    <img src="https://foothillschristmas.com/wp-content/uploads/2019/11/logo-1.png" alt="">
                 </div>
                 <div class="cell small-12 center">
                     <a href="https://foothillschurch.churchcenter.com/login?return=https%3A%2F%2Ffoothillschurch.churchcenter.com%2Fregistrations%2Fevents%2F327898%2Fregistrations%2Fnew   " class="button">RSVP For Christmas!</a>
@@ -45,12 +45,12 @@ get_header(); ?>
                                 <span class = "service">Foothills Church</span>
                                 <span class="time-info">1551 W. Lamar Alexander Pkwy.</span>
                                 <span class="time-info">Maryville, TN 37801</span>
-                                <a class="directions-info" href = "https://goo.gl/maps/GtDR2QA4TSWXb7EXA">Directions</a>
+                                <div class="directions-info"> <a href = "https://goo.gl/maps/GtDR2QA4TSWXb7EXA">Directions</a> </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="cell small-12 medium-4">
+                    <div class="cell small-12 medium-4 add-booty">
                                 <h2 class = "header-details">Dates and Times</h2>
                                 <span class = "service">1st Service</span>
                                 <span class="time-info">Saturday, December 21</span>
@@ -70,7 +70,6 @@ get_header(); ?>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -159,17 +158,17 @@ get_header(); ?>
             <div class="grid-container footer">
                 <div class="grid-x grid-margin-x">
                     <div class="cell small-3 medium-offset-2 medium-2 center">
-                        <a href="https://www.facebook.com/foothillscollective/">
+                        <a href="https://www.facebook.com/foothillschurchTN/">
                             <i class="fab fa-facebook"></i>
                         </a>
                     </div>
                     <div class="cell small-3 medium-2 center">
-                        <a href="https://www.instagram.com/foothills.collective/">
+                        <a href="https://www.instagram.com/foothillschurchtn/">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </div>
                     <div class="cell small-3 medium-2 center">
-                        <a href="https://www.youtube.com/channel/UCX_IiZ45InnY5o85cB1i-BA/featured">
+                        <a href="https://www.youtube.com/channel/UCQdNLMAdsASo118tjRueYxw">
                             <i class="fab fa-youtube"></i>
                         </a>
                     </div>

@@ -115,16 +115,19 @@ main p {
   display: block;
 }
 
-.directions-info {
+.directions-info{
   color: $light-blue;
   font-size: .8em;
   text-align: left;
   margin-top: 0;
-  display: block;
   margin-bottom: 15px;
 }
 
-.directions-info:hover {
+.directions-info a {
+  color: $light-blue;
+}
+
+.directions-info a:hover {
   color: $light-red;
 }
 
